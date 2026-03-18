@@ -4,7 +4,7 @@ import google.generativeai as genai
 from datetime import datetime
 
 # Configure Gemini API Key
-GOOGLE_API_KEY = "AIzaSyCXXp_u1sF4iUMOFRw9nyGfVS0CnzvwKXs" 
+GOOGLE_API_KEY = "AIzaSyDbBOS_bIBi-jbf8M1GH_2zrXw5mVl9Dhs" 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Streamlit Page Setup
