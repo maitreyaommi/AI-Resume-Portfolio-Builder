@@ -1,7 +1,6 @@
 import streamlit as st
 from fpdf import FPDF
 import google.generativeai as genai
-
 # API Key
 GOOGLE_API_KEY = "AIzaSyDbBOS_bIBi-jbf8M1GH_2zrXw5mVl9Dhs"  
 genai.configure(api_key=GOOGLE_API_KEY)
